@@ -1,0 +1,17 @@
+{
+  "name": "zk_example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aes256": "^1.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mz": "^2.7.0",
+    "node-rsa": "^1.0.0",
+    "request": "^2.86.0",
+    "request-promise": "^4.2.2",
+    "secure-remote-password": "^0.3.0",
+    "yargs": "^11.0.0"
+  }
+}
