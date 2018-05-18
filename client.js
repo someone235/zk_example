@@ -1,7 +1,6 @@
 const srp = require('secure-remote-password/client');
 const request = require('request-promise');
 const argv = require('yargs').argv;
-const fs = require('mz/fs');
 const aes256 = require('aes256');
 const NodeRSA = require('node-rsa');
 
@@ -58,8 +57,4 @@ async function post(endpoint, body) {
     body,
     json: true
   });
-}
-
-async function getPrivateData() {
-  return JSON.parse(await fs.readFile('./private.json'));
 }
